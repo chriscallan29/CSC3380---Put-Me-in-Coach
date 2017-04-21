@@ -1,0 +1,66 @@
+<head>
+    <title>Put Me in Coach</title>
+</head>
+<body>
+<h1>Put Me in Coach</h1>
+<p>{{> loginButtons}}</p>
+{{> homePage}}
+<nav>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+             <a href="/CreateMatch">Create Match</a>
+        </li>
+        <li>
+            <a href="/FindMatch">Find Match</a>
+        </li>
+        <li>
+            <a href="/ViewProfile">View Profile</a>
+        </li>
+        <li>
+            <a href="/NewsFeed">News Feed</a>
+        </li>
+    </ul>
+</nav>
+
+</body>
+
+
+
+<template name="main">
+    <h1>PMIC</h1>
+    {{> yield}}
+    <hr />
+    <p>Copyright &copy; PMIC, 2014-2015.</p>
+</template>
+
+<template name="homePage">
+    Pick an Activity:
+</template>
+
+<template name="Home">
+    <h2>Home</h2>
+    Home
+</template>
+
+<template name="CreateMatch">
+    <h2>Create Match</h2>
+    Create Match
+</template>
+
+<template name="FindMatch">
+    <h2>Find Match</h2>
+    Find Match
+</template>
+
+<template name="ViewProfile">
+    <h2>View Profile</h2>
+    View Profile
+</template>
+
+<template name="News Feed">
+    <h2>News Feed</h2>
+    News Feed
+</template>
