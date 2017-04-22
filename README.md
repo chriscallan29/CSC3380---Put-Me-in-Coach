@@ -5,9 +5,6 @@ Developed by: Christopher Callan, Cosimo Tomba, Danny Do, Timothy Rine
 
 This web application connects users based on location and the physical activity selected. For example, a person living in Baton Rouge, Louisiana can find other people to fill spots in a pickup basketball game.
 
-Packages used: 
-session,
-accounts-password,
-accounts-ui,
-iron:router,
-lookback:dropdowns,
+To find a list of packages used, see 'Packages' file.
+
+For details on how to install, see 'Install' file.
