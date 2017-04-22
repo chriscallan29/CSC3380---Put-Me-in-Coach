@@ -7,7 +7,7 @@ This web application connects users based on location and the physical activity 
 
 Packages used: 
 > session
-accounts-password
+> accounts-password
 accounts-ui
 iron:router
 lookback:dropdowns
