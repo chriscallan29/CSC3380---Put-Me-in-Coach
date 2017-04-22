@@ -1,0 +1,36 @@
+<template name="main">
+    <h1>Put Me in Coach</h1>
+    {{> navigation}}
+    {{> yield}}
+    <hr />
+    <p>Copyright &copy; Put Me in Coach, 2017-2018.</p>
+</template>
+
+
+<template name="navigation">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/creatematch">Create Match</a></li>
+        <li><a href="/findmatch">Find Match</a></li>
+        <li><a href="/profile">View Profile</a></li>
+        <li><a href="/newsfeed">News Feed</a></li>
+    </ul>
+</template>
+
+
+<template name="home">
+    <p>Welcome to the "Put Me in Coach" web app.</p>
+</template>
+
+
+<template name="profile">
+    <h2>View Profile</h2>
+    View Profile
+</template>
+
+
+<template name="newsfeed">
+    <h2>News Feed</h2>
+    News Feed
+</template>
+
