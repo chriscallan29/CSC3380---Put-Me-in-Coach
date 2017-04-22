@@ -7,13 +7,13 @@
 
     {{#dropdown name="Choose Activity"}}
         <ul>
-            <li><a href="/baseball">Baseball</a></li>
+            <li><a href="/creatematch/baseball">Baseball</a></li>
             <li><a href="/creatematch/basketball">Basketball</a></li>
-            <li><a href="/football">Football</a></li>
-            <li><a href="/gym">Gym Partner</a></li>
-            <li><a href="/running">Running Partner</a></li>
-            <li><a href="/soccer">Soccer</a></li>
-            <li><a href="/tennis">Tennis</a></li>
+            <li><a href="/creatematch/football">Football</a></li>
+            <li><a href="/creatematch/gym">Gym Partner</a></li>
+            <li><a href="/creatematch/running">Running Partner</a></li>
+            <li><a href="/creatematch/soccer">Soccer</a></li>
+            <li><a href="/creatematch/tennis">Tennis</a></li>
         </ul>
     {{/dropdown}}
 
@@ -28,9 +28,54 @@
     </form>
 </template>
 
+<template name="weightRange">
+    Weight Range:
+    <form>
+        <input type="number" name="number">
+        <input type="submit" value="Submit">
+    </form>
+</template>
+
+<template name="distance">
+    Distance:
+    <form>
+        <input type="number" name="number">
+        <input type="submit" value="Submit">
+    </form>
+</template>
+
+
+<template name="baseball">
+    <h2>Baseball</h2>
+    {{> numPlayers}}
+</template>
 
 <template name="basketball">
     <h2>Basketball</h2>
     {{> numPlayers}}
 </template>
 
+<template name="football">
+    <h2>Football</h2>
+    {{> numPlayers}}
+</template>
+
+<template name="gym">
+    <h2>Gym Partner</h2>
+    {{> weightRange}}
+</template>
+
+<template name="running">
+    <h2>Running Partner</h2>
+    {{> distance}}
+</template>
+
+<template name="soccer">
+    <h2>Soccer</h2>
+    {{> numPlayers}}
+</template>
+
+<template name="tennis">
+    <h2>Tennis</h2>
+    {{> numPlayers}}
+</template>
