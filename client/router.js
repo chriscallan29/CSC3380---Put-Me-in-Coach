@@ -28,3 +28,8 @@ Router.route('/profile', function () {
     this.layout('main');
     this.render('profile');
 });
+
+Router.route('/creatematch/basketball', function () {
+    this.layout('main');
+    this.render('basketball');
+});
