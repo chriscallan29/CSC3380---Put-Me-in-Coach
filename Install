@@ -1,6 +1,5 @@
 Installation instructions:
 
 1) Download .zip file. 
-2) Open the html file "index.html' with any web browser. 
-3) Navigate throughout our site to see the various 
-features we have implemented or are working on implementing.
+2) Open the project in a JavaScript supporting IDE, prefereably WebStorm (https://www.jetbrains.com/webstorm/).
+3) Navigate throughout our site to see the various features that we have implemented or are working on implementing.
