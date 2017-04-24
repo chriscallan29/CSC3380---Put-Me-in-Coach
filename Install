@@ -2,4 +2,6 @@ Installation instructions:
 
 1) Download .zip file. 
 2) Open the project in a JavaScript supporting IDE, prefereably WebStorm (https://www.jetbrains.com/webstorm/).
+2a) If using the recommended WebStorm IDE, you can import the project and navigate to any of the .html files to open our project 
+        in the browser of your choosing.
 3) Navigate throughout our site to see the various features that we have implemented or are working on implementing.
