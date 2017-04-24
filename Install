@@ -1,7 +1,6 @@
 Installation instructions:
 
-Download 'Meteor' at https://www.meteor.com/.
-> Once installed, download the source files for the project in this repository. 
-
-When run, this project can be seen in any browser at: http://localhost:3000/. 
-From there, the user can test the functionality of the 'Put Me in Coach' web application. 
+1) Download .zip file. 
+2) Open the html file "index.html' with any web browser. 
+3) Navigate throughout our site to see the various 
+features we have implemented or are working on implementing.
